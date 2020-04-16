@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    oci_config_reader (0.0.1)
+    oci_config_reader (0.0.2)
 
 GEM
   remote: https://rubygems.org/
