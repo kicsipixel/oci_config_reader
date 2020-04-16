@@ -6,17 +6,17 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Szabolcs Toth"]
   spec.email         = ["tsz@purzelbaum.hu"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "https://github.com"
+  spec.summary       = %q{A Ruby gem to read out oci config data.}
+  spec.description   = %q{A simple gem to read data from oci config file. So in Ruby sample codes you don't need to write down/copy-paste the same information again-and-again.}
+  spec.homepage      = "https://github.com/kicsipixel/oci_config_reader"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com"
-  spec.metadata["changelog_uri"] = "https://github.com"
+  spec.metadata["source_code_uri"] = "https://github.com/kicsipixel/oci_config_reader"
+  spec.metadata["changelog_uri"] = "https://github.com/kicsipixel/oci_config_reader"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
