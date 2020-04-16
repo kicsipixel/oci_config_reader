@@ -1,3 +1,3 @@
-module OCR
-  VERSION = "0.0.3"
+module OciConfigReader
+  VERSION = "0.0.4"
 end

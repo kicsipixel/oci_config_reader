@@ -1,9 +1,9 @@
 require "oci_config_reader/version"
 
-module OCR
+module OciConfigReader
   class Error < StandardError; end
   def self.version
-  	OCR::VERSION
+  	OciConfigReader::VERSION
   end
 
   def self.oci_config_data

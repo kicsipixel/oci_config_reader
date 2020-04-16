@@ -2,7 +2,7 @@ require_relative 'lib/oci_config_reader/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "oci_config_reader"
-  spec.version       = OCR::VERSION
+  spec.version       = OciConfigReader::VERSION
   spec.authors       = ["Szabolcs Toth"]
   spec.email         = ["tsz@purzelbaum.hu"]
 
