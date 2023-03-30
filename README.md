@@ -1,4 +1,4 @@
-# OciConfigReader
+# OCIConfigReader
 
 A simple gem to read data from oci config file. So in Ruby sample codes you don't need to write down/copy-paste the same information again-and-again.
 
