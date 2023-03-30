@@ -21,6 +21,13 @@ Or install it yourself as:
 
 ## Usage
 
+The gem will try to read the data from: ```~/.oci/config```
+```ruby
+user = OciConfigReader.oci_config_data["user"]
+fingerprint = OciConfigReader.oci_config_data["fingerprint"]
+key_file = OciConfigReader.oci_config_data["key_file"]
+tenancy = OciConfigReader.oci_config_data["tenancy"]
+```
 OciConfigReader.oci_config_data["user/fingerprint/key_file/tenancy/region"]
 
 
